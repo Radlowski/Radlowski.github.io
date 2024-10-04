@@ -556,6 +556,13 @@
   }
   
   
+  .dajtonasrodek
+  {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
   /**
    * #testimonials 
    */
@@ -827,6 +834,7 @@
     color: var(--light-gray);
     font-weight: var(--fw-300);
     line-height: 1.6;
+    text-align: justify;
   }
   
   
@@ -1373,12 +1381,22 @@
      * #NAVBAR
      */
   
-    .navbar { border-radius: 20px 20px 0 0; }
-  
-    .navbar-list { gap: 20px; }
-  
-    .navbar-link { --fs-8: 14px; }
-  
+     .navbar {
+      border-radius: 20px 20px 0 0;
+    }
+    
+    .navbar-list {
+      gap: 20px;
+    }
+    
+    .navbar-link {
+      --fs-8: 14px;
+      color: #ffffff; /* kolor linku */
+      text-decoration: none; /* usunięcie podkreślenia linku, jeśli potrzebne */
+    }
+    
+    .navbar-link:visited {
+      color
   
   
     /**
@@ -1541,8 +1559,7 @@
   
   }
   
-  
-  
+
   
   
   /**
