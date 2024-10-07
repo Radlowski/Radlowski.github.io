@@ -126,6 +126,26 @@
   }
   
   a { text-decoration: none; }
+
+  /* unvisited link */
+a:link {
+  color:var(--orange-yellow-crayola);
+}
+
+/* visited link */
+a:visited {
+  color:var(--orange-yellow-crayola);
+}
+
+/* mouse over link */
+a:hover {
+  color:var(--orange-yellow-crayola);
+}
+
+/* selected link */
+a:active {
+  color:var(--orange-yellow-crayola);
+}
   
   li { list-style: none; }
   
